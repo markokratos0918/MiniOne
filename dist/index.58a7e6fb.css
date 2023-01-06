@@ -12016,4 +12016,10 @@ textarea.form-control-lg {
   }
 }
 
+.custombg {
+  background: #000 url("background.674a48a9.jpg") 0 0 / cover;
+  margin-block: 300px;
+  display: inline-block;
+}
+
 /*# sourceMappingURL=index.58a7e6fb.css.map */
