@@ -19,9 +19,16 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 .custombg {
     background: black url('../asset/background.jpg');
     background-size: cover;
-    display: inline-block;
-    margin-block: 300px;
-    
-
 }
 
+.card {
+    background: none;
+}
+
+.card-body {
+   background: #2e2e2e;
+}
+
+.card-body p {
+    color: #c2c2c2;
+ }
