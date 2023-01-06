@@ -3,14 +3,47 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap w/ Parcel</title>
-    <link rel="stylesheet" href="scss/styles.scss">
+    <title>Verde Valle</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+      </style>
+    <link rel="stylesheet" href="scss/custom.scss">
     <script type="module" src="js/main.js"></script>
   </head>
   <body>
-    <div class="container py-4 px-3 mx-auto">
-      <h1>Hello, Bootstrap and Parcel!</h1>
-      <button class="btn btn-primary">Primary button</button>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark mt-3">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold text-primary" href="#">VerdeValle</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="pnpmage" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Farm Location</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Crops
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">MD2 Pineapples</a></li>
+                      <li><a class="dropdown-item" href="#">Arabica Coffee</a></li>
+                      <li><a class="dropdown-item" href="#">Eviarc Jackfruit</a></li>
+                      <li><a class="dropdown-item" href="#">Aquilaria Malaccensis Agarwood</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </div>
   </body>
 </html>
