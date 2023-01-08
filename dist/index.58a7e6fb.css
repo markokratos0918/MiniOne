@@ -12015,6 +12015,16 @@ textarea.form-control-lg {
   justify-content: flex-end;
 }
 
+.hero {
+  background: linear-gradient(0deg, #28426540, #28426540), url("background.674a48a9.jpg");
+}
+
+.hcontainer {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
 .carousel {
   margin-bottom: 4rem;
 }
